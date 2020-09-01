@@ -33,4 +33,6 @@ por ejemplo:
 #### Geronimo Navas Olivas
 #### James Alberth Reyes Calderón 
 
+#### Yesser Miranda
+
 
