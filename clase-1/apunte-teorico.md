@@ -30,5 +30,6 @@ por ejemplo:
 ```
 <img src="imagen.png" width="400" height="300">
 ```
+#### James Alberth Reyes Calderón 
 
 
