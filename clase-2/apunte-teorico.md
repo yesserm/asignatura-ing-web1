@@ -16,3 +16,16 @@ se escriben con la etiqueta ```<p>``` y el navegador elimina espacios y saltos d
 ### Los estilos
 Los estilos se pueden agregar utilizando una etiqueta ```<style>``` o utilizando el atributo `style` dentro de cada una de las etiquetas. Tengamos en cuenta que tambien se puede hacer con una hoja de estilos externa.
 
+### Texto formateado
+HTML nos permite añadir formato a los diferentes textos que agregamos en el documento, entre estas etiquetas encontramos:
+* ```<b>```
+* ```<i>```
+* ```<em>```
+* ```<strong>```
+* ```<mark>```
+* ```<small>```
+* ```<sub>```
+* ```<sup>```
+* ```<del>```
+* ```<ins>```
+
