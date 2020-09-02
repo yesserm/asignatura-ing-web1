@@ -13,3 +13,6 @@ Existen diferentes ```<h1>``` es el encabezado mas grande y ```<h6>``` es el enc
 ### Los párrafos
 se escriben con la etiqueta ```<p>``` y el navegador elimina espacios y saltos de línea que se hagan en el editor. si queremos añadir un párrafo preformateado, entonces, usamos la etiqueta ```<pre>```
 
+### Los estilos
+Los estilos se pueden agregar utilizando una etiqueta ```<style>``` o utilizando el atributo `style` dentro de cada una de las etiquetas. Tengamos en cuenta que tambien se puede hacer con una hoja de estilos externa.
+
