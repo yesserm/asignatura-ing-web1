@@ -35,4 +35,6 @@ por ejemplo:
 
 #### Yesser Miranda
 
+#### Faruck Chavarria 
+
 
