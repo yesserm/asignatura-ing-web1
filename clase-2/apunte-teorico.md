@@ -29,3 +29,5 @@ HTML nos permite añadir formato a los diferentes textos que agregamos en el doc
 * ```<del>```
 * ```<ins>```
 
+### Las citas
+podemos utilizar las etiquetas ```<q>``` y ```<quotation>``` para las citas
