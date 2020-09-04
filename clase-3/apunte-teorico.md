@@ -39,4 +39,21 @@ Un ejemplo sencillo sería:
 ```
 ### LISTAS ORDENADAS Y DESORDENADAS
 Para las listas desordenadas, utilizamos ```<ul>``` para las listas ordenadas utilizamos ```<ol>``` para cada uno de los items utilizamos ```<li>```
+```
+    <!--LISTAS DESORDENADAS-->
+    <h4>Bebidas</h4>
+    <ul>
+        <li>Cafe</li>
+        <li>Gaseosa</li>
+        <li>Agua</li>
+    </ul>
+
+    <!--LISTAS ORDENADAS-->
+    <h4>Mi lista de viaje</h4>
+    <ol>
+        <li>Jabon de baño</li>
+        <li>Pasta dental</li>
+        <li>Cargador de celular</li>
+    </ol>
+    ```
 
