@@ -17,3 +17,26 @@ Para agregar enlaces necesitamos la etiqueta ```<a>``` y se pueden abrir de vari
 Para vincular las imagenes a nuestro HTML, necesitamos la etiqueta ```<img>``` el atributo que no debe faltar dentro de la etiqueta es **src**, por ejemplo, agregamos esta imagen:
 ![Cafe](medios/cafe.jpg)
 
+### tablas
+Nos ayudan a organizar la información, para definir una tabla necesitamos la etiqueta ```<table>``` y para definir las filas necesitamos ```<tr>```, para definir las columnas necesitamos ```<td>```
+Un ejemplo sencillo sería:
+```
+<table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th colspan="2">Telefono</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Yesser Miranda</td>
+                <td>89364636</td>
+                <td>81350431</td>
+            </tr>
+        </tbody>
+    </table>
+```
+### LISTAS ORDENADAS Y DESORDENADAS
+Para las listas desordenadas, utilizamos ```<ul>``` para las listas ordenadas utilizamos ```<ol>``` para cada uno de los items utilizamos ```<li>```
+
