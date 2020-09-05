@@ -25,7 +25,7 @@ Para incluir estilos CSS en línea, debemos utilizar el atributo ```style``` dir
     <p style="color:blue;">Si algo funciona, no lo toques</p>
 ```
 ### Semántica HTML
-Cuando hablamos de semántica HTML no hablamos de diseño, sino, la manera de escribir un documento web que se adapte a los estándares y que de esta manera los navegadores puedan interpretar de forma correcta la información.
+Cuando hablamos de semántica HTML no hablamos de diseño, sino, la manera de escribir un documento web que se adapte a los estándares y que de esta manera los navegadores puedan interpretar de forma correcta la información.  
 ![semantica](medios/semantica.jpg)
 * Ejemplo
 ```
