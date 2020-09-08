@@ -1,0 +1,28 @@
+.encabezado{
+    text-align: center;
+}
+.contenedor{
+    background-color: brown;
+    width: 600px;
+    height: 500px;
+}
+.imagen{
+    margin-top: -20px;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    background-color: skyblue;
+    /*color: rgb(255, 0, 0);*/
+    /*color: #ff0000;*/
+    /*color: hsl(359,50%,90%);*/
+    color: rgba(255, 0, 0, 0.5);
+    padding: 20px;
+}
+*{
+    /*background-color: skyblue;*/
+    background-image: url("../2.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+}

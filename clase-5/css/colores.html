@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colores</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    
+    <h1>Bienvenido a mi sitio</h1>
+    <!--<img src="1.jpg" alt="esto es una imagen de un cafe" class="imagen">-->
+     <!--MI CABECERA DE SITIO-->
+     <header>
+        <h1>Bienvenido a nuestra página</h1>
+        <p>La información es muy importante para nosotros</p>
+    </header>
+    <!--MENU DE NAVEGACION DE SITIO-->
+    <nav>
+        <ul>
+            <li><a href="#">Artículo 1</a></li>
+            <li><a href="#">Artículo 2</a></li>
+            <li><a href="#">Artículo 3</a></li>
+        </ul>
+    </nav>
+    <!--EL CONTENIDO PRINCIPAL-->
+    <main>
+        <!--ARTICULO-->
+        <article>
+            <!--CABECERA DEL ARTICULO-->
+            <header>
+                <h2>¿Qué es HTML semántico?</h2>
+                <p>Echaremos un vistazo a la semántica HTML y por qué debemos usarlos</p>
+            </header>
+            <!--SECCION INTRODUCCION-->
+            <section>
+                <h3>Introducción</h3>
+                <p>Hoy en día, muchos de nosotros hemos utilizado HTML,ya sea porque estamos en el desarrollo web / software o simplemente por diversión. El uso de HTML es una cosa y puede parecer bastante fácil. Efectivamente, podemos obtener rápidamente algo simplemente jugando con HTML. Pero usar correctamente este lenguaje de marcado puede ser un poco más difícil de lo que parece.</p>
+            </section>
+            <section>
+                <details>
+                    <summary>¿Qué es HTML?</summary>
+                    <p> es un lenguaje de marcado que se utiliza para el desarrollo de páginas de Internet. Se trata de la siglas que corresponden a HyperText Markup Language</p>
+                </details>
+                <h3>¿Qué es la semántica?</h3>
+                <p>La semántica es la rama de la lengua y la lógica preocupada por el significado. En palabras simples, es el estudio de la relación entre las palabras y sus significados. Hay dos ámbitos principales: uno que se ocupa de cuestiones como el sentido y la referencia y la presunción e implicación, y otro que se refiere al análisis de los significados de las palabras y las relaciones entre ellos.</p>
+            </section>
+            <section>
+                <h3>¿Cuál es la relación con HTML?</h3>
+                <p>HTML semántico introduce significado a la página web en lugar de sólo presentación. Su objetivo es ser semántico y representativo: las personas pueden saber qué elementos están mirando y los navegadores saben cómo mostrarlos. Un elemento semántico describe claramente su significado tanto para el navegador como para el desarrollador.</p>
+            </section>
+            <section>
+                <h3>¿Por qué usarlo?</h3>
+                <p>Entonces, ¿por qué deberíamos preocuparnos por HTML semántico? Teniendo en cuenta que las etiquetas HTML que utilizamos deben describir el significado subyacente de nuestro contenido, agregamos información adicional sobre nuestro documento y mejoramos nuestra comunicación.</p>
+
+                <p>El uso de etiquetas semánticas da las herramientas a los navegadores y a los diferentes motores de búsqueda para entender nuestro documento. Por lo tanto, obtenemos un contenido más que se puede buscar que, obviamente, conduce a una mejor clasificación de motores de búsqueda. También aumentamos la accesibilidad para dispositivos como lectores de pantalla que pueden interpretar más fácilmente el significado de nuestro contenido. Por lo tanto, los navegadores, motores de búsqueda o dispositivos pueden entender la estructura de nuestro documento y los roles de los elementos dentro de él.</p> 
+
+                <p>El uso de etiquetas semánticas también puede darnos más ganchos para aplicar estilo a nuestro contenido.</p>
+
+                <p>Podemos pensar que este concepto fue introducido por HTML5,pero no es el caso. Existían muchas etiquetas semánticas antes de HTML5,pero esta última introdujo nuevos elementos.</p>
+                
+                <h4>Ejemplo</h4>  
+                <pre>  
+                    <code>                
+        &lt;body&gt;
+        &lt;header&gt;
+            &lt;h1&gt;Bienvenido a nuestra página&lt;/h1&gt;
+            &lt;p&gt;Aquí va su eslogan&lt;/p&gt;
+        &lt;/header&gt;
+        &lt;nav&gt;
+            &lt;header&gt;
+            &lt;h2&gt;Este es mi menú&lt;/h2&gt;
+            &lt;/header&gt;
+            &lt;ul&gt;
+            &lt;li&gt;Menu 1&lt;/li&gt;
+            &lt;li&gt;Menu 2&lt;/li&gt;
+            &lt;li&gt;Menu 3&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/nav&gt;
+        
+        &lt;article&gt;
+            &lt;header&gt;
+            &lt;h1&gt;Este es un articulo con nombre&lt;/h1&gt;
+            &lt;h2&gt;Un subtitulo del articulo&lt;/h2&gt;
+            &lt;/header&gt;
+            
+            &lt;section&gt;
+            &lt;h3&gt;Primer párrafo&lt;/h3&gt;
+            &lt;p&gt;párrafo&lt;/p&gt;
+            
+            &lt;h4&gt;subsección&lt;/h4&gt;
+            &lt;p&gt;Párrafo&lt;/p&gt;
+            &lt;/section&gt;
+            
+            &lt;section&gt;
+            &lt;h3&gt;Segunda parte&lt;/h3&gt;
+            &lt;p&gt;Párrafo&lt;/p&gt;
+            &lt;p&gt;Párrafo&lt;/p&gt;
+            &lt;/section&gt;
+        
+            &lt;footer&gt;
+            &lt;h4&gt;Título del pie de página&lt;/h4&gt;
+            &lt;p&gt;párrafo&lt;/p&gt;
+            &lt;/footer&gt;
+        &lt;/article&gt;
+        
+        &lt;aside&gt;
+            &lt;h2&gt;Esto es un sidebar&lt;/h2&gt;
+            &lt;section&gt;
+            &lt;h3&gt;Últimos Posts&lt;/h3&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Post 1&lt;/li&gt;
+                &lt;li&gt;Post 2&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/section&gt;
+        &lt;/aside&gt;
+        
+        &lt;footer&gt;
+            &lt;ul&gt;
+            &lt;li&gt;Derechos de autor &copy;&lt;/li&gt;
+            &lt;li&gt;vinculos a contacto&lt;/li&gt;
+            &lt;li&gt;vinculos a redes&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/footer&gt;
+    &lt;/body&gt;
+                    </code>
+                </pre>
+
+            </section>
+            <section>
+                <h3>Conclusión</h3>
+                <p>En este artículo, vimos lo que es HTML semántico y por qué debemos usarlo. En pocas palabras, nos proporciona una manera de hacer estructurar nuestro documento y hacerlo comprensible por los seres humanos y por los motores de búsqueda o navegadores web.</p>
+            </section>
+        </article>
+        <!--FIN DE ARTICULO-->
+        <footer>
+            <ul>
+                <li><h4>Mi sitio</h4></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Ayuda</a></li>
+                <li><a href="#">Legal</a></li>
+            </ul>
+        </footer>
+    </main>
+</body>
+</html>
