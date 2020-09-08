@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <header id="inicio">
+        <h1>Bienvenido a nuestra página</h1>
+        <p>La información es muy importante para nosotros</p>
+    </header>
+    <nav>
+        <ul><a href="#">Inicio</a></ul>
+        <ul><a href="#">Servicios</a></ul>
+        <ul><a href="#contacto">Contacto</a></ul>
+        <ul><a href="#pie">Acerca de</a></ul>
+    </nav>
+    <main>
+        <article>
+            <header>
+                <h2>¿Qué es HTML semántico?</h2>
+                <p>Echaremos un vistazo a la semántica HTML y por qué debemos usarlos</p>
+            </header>
+            <section>
+                <h3>Introducción</h3>
+                <p>Hoy en día, muchos de nosotros hemos utilizado HTML,ya sea porque estamos en el desarrollo web / software o simplemente por diversión. El uso de HTML es una cosa y puede parecer bastante fácil. Efectivamente, podemos obtener rápidamente algo simplemente jugando con HTML. Pero usar correctamente este lenguaje de marcado puede ser un poco más difícil de lo que parece.</p>
+            </section>
+            <section>
+                <details>
+                    <summary>¿Qué es HTML?</summary>
+                    <p>es un lenguaje de marcado que se utiliza para el desarrollo de páginas de Internet. Se trata de la sigla que corresponde a HyperText Markup Language</p>
+                </details>
+            </section>
+            <section>
+                <h3>¿Por qué usarlo?</h3>
+                <p>Entonces, ¿por qué deberíamos preocuparnos por HTML semántico? Teniendo en cuenta que las etiquetas HTML que utilizamos deben describir el significado subyacente de nuestro contenido, agregamos información adicional sobre nuestro documento y mejoramos nuestra comunicación.</p>
+
+                <p>El uso de etiquetas semánticas da las herramientas a los navegadores y a los diferentes motores de búsqueda para entender nuestro documento. Por lo tanto, obtenemos un contenido más que se puede buscar que, obviamente, conduce a una mejor clasificación de motores de búsqueda. También aumentamos la accesibilidad para dispositivos como lectores de pantalla que pueden interpretar más fácilmente el significado de nuestro contenido. Por lo tanto, los navegadores, motores de búsqueda o dispositivos pueden entender la estructura de nuestro documento y los roles de los elementos dentro de él.</p>
+
+                <p>El uso de etiquetas semánticas también puede darnos más ganchos para aplicar estilo a nuestro contenido.</p>
+
+                <p>Podemos pensar que este concepto fue introducido por HTML5,pero no es el caso. Existían muchas etiquetas semánticas antes de HTML5,pero esta última introdujo nuevos elementos.</p>
+                <h3>Ejemplo</h3>
+                <pre>
+                    <code>
+                        <body>
+        &lt;header&gt;
+            &lt;h1&gt;Bienvenido a nuestra página&lt;/h1&gt;
+            &lt;p&gt;Aquí va su eslogan&lt;/p&gt;
+        &lt;/header&gt;
+        &lt;nav&gt;
+            &lt;header&gt;
+            &lt;h2&gt;Este es mi menú&lt;/h2&gt;
+            &lt;/header&gt;
+            &lt;ul&gt;
+            &lt;li&gt;Menu 1&lt;/li&gt;
+            &lt;li&gt;Menu 2&lt;/li&gt;
+            &lt;li&gt;Menu 3&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/nav&gt;
+        
+        &lt;article&gt;
+            &lt;header&gt;
+            &lt;h1&gt;Este es un articulo con nombre&lt;/h1&gt;
+            &lt;h2&gt;Un subtitulo del articulo&lt;/h2&gt;
+            &lt;/header&gt;
+            
+            &lt;section&gt;
+            &lt;h3>Primer párrafo&lt;/h3&gt;
+            &lt;p>párrafo&lt;/p&gt;
+            
+            &lt;h4>subsección&lt;/h4&gt;
+            &lt;p>Párrafo&lt;/p>
+            &lt;/section&gt;
+            
+            &lt;section&gt;
+            &lt;h3&gt;Segunda parte&lt;/h3&gt;
+            &lt;p&gt;Párrafo&lt;/p&gt;
+            &lt;p&gt;Párrafo&lt;/p&gt;
+            &lt;/section&gt;
+        
+            &lt;footer&gt;
+            &lt;h4&gt;Título del pie de página&lt;/h4&gt;
+            &lt;p&gt;párrafo&lt;/p&gt;
+            &lt;/footer&gt;
+        &lt;/article&gt;
+        
+        <aside>
+            &lt;h2&gt;Esto es un sidebar&lt;/h2&gt;
+            &lt;section&gt;
+            &lt;h3&gt;Últimos Posts&lt;/h3&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Post 1&lt;/li&gt;
+                &lt;li&gt;Post 2&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/section&gt;
+        &lt;/aside&gt;
+        
+        &lt;footer&gt;
+            &lt;ul&gt;
+            &lt;li&gt;Derechos de autor ©&lt;/li&gt;
+            &lt;li&gt;vinculos a contacto&lt;/li&gt;
+            &lt;li&gt;vinculos a redes&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/footer&gt;
+    &lt;/body&gt;
+                
+                    </code>
+                </pre>
+            </section>
+        </article>
+    </main>
+    <aside>
+        <ul>
+            <li><a href="https://www.google.com">Google</a></li>
+            <li><a href="https://www.facebook.com">Facebook</a></li>
+            <li><a href="https://www.youtube.com">Youtube</a></li>
+        </ul>
+    </aside>
+    <div id="contacto">
+        <form action="guardar.php" target="_blank" method="POST">
+            <fieldset>
+                <legend>Informacion basica</legend>
+                <label>Nombre</label>
+                <input type="text" placeholder="Ingrese su nombre" name="nombre" id="nombre" required>
+                <label>Apellido</label>
+                <input type="text" name="apellido" id="apellido" autofocus>
+            </fieldset>
+            <fieldset>
+                <legend>Informacion adicional</legend>
+                <label>Carnet</label>
+            <input type="text" name="carnet" id="carnet" pattern="[0-9]{2}-[0-9]{5}-[0-9]{2}-[0-9]{2}" placeholder="18-05203-03-00" title="18-05203-03-00">
+            <label>Correo</label>
+            <input type="email" name="correo" id="correo" required>
+            <label>Fecha de nacimiento</label>
+            <input type="date" name="fecha-nac" id="fecha-nac">
+            <label>Cantidad</label>
+            <input type="number" name="cantidad" id="cantidad" value="5" readonly>
+            </fieldset>
+            <select name="sexo" id="sexo">
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino" selected>Femenino</option>
+            </select>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <footer id="pie">
+        <nav>
+            <ul><a href="#inicio">Inicio</a></ul>
+            <ul><a href="">Legal</a></ul>
+            <ul><a href="">Ayuda</a></ul>
+        </nav>
+    </footer>
+</body>
+</html>
