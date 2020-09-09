@@ -1,0 +1,72 @@
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+}
+code{
+    font: 14px Courier, monospace;
+}
+.encabezado{
+    width: 500px;
+    height: 150px;
+    color: white;
+    background-color: slategray;
+    /*border-style: solid;*/
+    border-style: solid;
+    border-width: 5px;
+    padding: 10px;
+    text-align: center;
+    border-color: rgb(110, 110, 40);
+    margin: auto;
+}
+
+.codigo{
+    background-color: azure;
+    border-left: 5px solid red;
+    width: 80%;
+    height: 80px;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+.redondeado{
+    margin: 10px;
+    border-radius: 20px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5;
+}
+
+/*Eliminar los valores por defecto de los margenes*/
+*{
+    margin:0;
+    padding: 0;
+}
+
+img{
+    position: relative;
+}
+
+.contenedor{
+    max-width: 500px;
+    border: 1px solid red;
+    margin: 100px;
+    height: 400px;
+}
+
+.texto{
+    box-sizing: border-box;
+    width: 300px;
+    margin: inherit;
+    padding: 25px;
+    border: 1px solid black;
+    vertical-align: bottom;
+    text-shadow: 1px 1px;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#espaciado{
+    letter-spacing: 5px;
+}
