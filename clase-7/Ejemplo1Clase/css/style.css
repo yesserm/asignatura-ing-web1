@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header.encabezado{
+    text-align: center;
+    height: 50px;
+    padding-top: 15px;
+    background-color: rgb(11, 11, 11);
+    color: white;
+}
+header.encabezado > h1{
+    font-size: 40px;
+}
+.imagen{
+    width: 100%;
+}
+nav > ul > li{
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+}
+nav > ul > li:hover{
+    background-color: rgb(148, 148, 148);
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: rgb(52, 54, 53);
+}
+.contenedor{
+    height: 900px;
+    width: 100%;
+    background-color: rgb(23, 218, 218);
+}
+.fila{
+    height: 300px;
+    background-color: rgb(182, 179, 179);
+}
+.columna{
+    width: 33.33%;
+    height: 300px;
+    float: left;
+}
+.elemento{
+    width: 40%;
+    height: 300px;
+    color: white;
+    margin: auto;
+}
