@@ -1,0 +1,45 @@
+/*Cambios globales*/
+*{
+    padding: 0;
+    margin: 0;
+}
+header.cabecera{
+    width: 100%;
+}
+header.cabecera > img{
+    width: 65%;
+    display: block;
+    margin: auto;
+    padding: 2px;
+}
+div.barra{
+    position: sticky;
+    top: 0;
+}
+div.barra > nav{
+    width: 100%;
+    background-color: darkslategray;
+}
+div.barra > nav > ul > li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 19px;
+}
+div.barra > nav > ul > li:hover{
+    background-color: cornflowerblue;
+}
+div.barra > nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    width: 100%;
+}
+div.galeria{
+    margin-top: 20px;
+    width: 100%;
+}
+img{
+    width: 100%;
+}
