@@ -23,7 +23,8 @@ suma *= 3; // 21
 console.log('Multiplicacion: ', suma);
 
 //condicionales
-let edad = prompt("Ingrese su edad");
+let edad = 18;
+//let edad = prompt("Ingrese su edad");
 if(edad > 18)
 {
     console.log('mayor de edad');
@@ -44,7 +45,6 @@ function lanzarCohete()
     return 'BOOM';
 }
 
-
 let lanzando = lanzarCohete();
 console.log(lanzando);
 
@@ -62,3 +62,13 @@ const Saludar = () => {
 }
 Saludar();
 
+//funciones de orden superior
+const esPar = (n) => {
+    return n % 2 == 0;
+}
+
+let imprimirMensaje = (funcionPar, num) => {
+    const esNumPar = funcionPar(num);
+    console.log(`El numero ${num} es par: ${esNumPar}`);
+}
+imprimirMensaje(esPar,5);
