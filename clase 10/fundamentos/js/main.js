@@ -37,3 +37,28 @@ let dia = "Jueves";
 
 dia === "Lunes" ? precio-=1.5 : precio+=1.5;
 console.log("El precio es : " + precio);
+
+//funciones
+function lanzarCohete()
+{
+    return 'BOOM';
+}
+
+
+let lanzando = lanzarCohete();
+console.log(lanzando);
+
+let saludo = function () {
+    console.log('Hola');
+}
+saludo();
+
+//funciones flecha en ES6   
+const multiplicar = (a,b) => a*b;
+console.log(multiplicar(2,4));
+
+const Saludar = () => {
+    console.log('Hola Bienvenido');
+}
+Saludar();
+
