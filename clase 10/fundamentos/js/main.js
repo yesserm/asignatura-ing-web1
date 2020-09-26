@@ -85,4 +85,26 @@ if(numeros.length == 5){
     console.log(numeros);
 }
 
+//bucle while
+let i = 0;
+while(i<10)
+{
+    console.log("El numero: ", i);
+    i++;
+}
+
+//bucle do while
+let k =0;
+do{
+    console.log("El numero: ", k);
+    k++; 
+}while(k < 10);
+
+//bucle for
+for(let j = 1; j<=10; j++){
+    console.log("La variable ",j);
+}
+
+
+
 
