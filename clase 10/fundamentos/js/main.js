@@ -72,3 +72,17 @@ let imprimirMensaje = (funcionPar, num) => {
     console.log(`El numero ${num} es par: ${esNumPar}`);
 }
 imprimirMensaje(esPar,5);
+
+
+//matrices
+const numeros = [1,2,7,8];
+
+if(numeros.length == 5){
+    numeros.push(6);  //agrega al final
+    console.log(numeros);
+} else {
+    numeros.pop(); //saca del final
+    console.log(numeros);
+}
+
+
