@@ -21,3 +21,19 @@ suma -= 2; // 7
 console.log(`Resta: ${suma}`);
 suma *= 3; // 21
 console.log('Multiplicacion: ', suma);
+
+//condicionales
+let edad = prompt("Ingrese su edad");
+if(edad > 18)
+{
+    console.log('mayor de edad');
+} else {
+    console.log('menor de edad');
+}
+
+//operador ternario 
+let precio = 10.5;
+let dia = "Jueves";
+
+dia === "Lunes" ? precio-=1.5 : precio+=1.5;
+console.log("El precio es : " + precio);
